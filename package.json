@@ -1,6 +1,6 @@
 {
   "name": "iamedu-front",
   "scripts": {
-    "build": "npx elm-spa build"
+    "build": "npx elm-land build"
   }
 }
