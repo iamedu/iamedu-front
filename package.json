@@ -1,6 +1,9 @@
 {
   "name": "iamedu-front",
   "scripts": {
-    "build": "npx elm-land build"
+    "build": "npx tailwindcss -i ./src/input.css -o ./static/main.css --minify && npx elm-land build"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.2.7"
   }
 }
